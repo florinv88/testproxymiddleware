@@ -7,7 +7,7 @@ function App() {
   const handleClick = () => {
     axios({
       method: "GET",
-      url: "/fnk"
+      url: "https://testproxymiddleware.herokuapp.com/fnk"
     })
       .then(res => console.log(res))
   }
